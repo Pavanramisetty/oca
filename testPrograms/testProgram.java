@@ -1,9 +1,10 @@
-public class test{
-    public swap(arg1, arg1){
+public class testProgram{
+    //int tmp;
+    public static int swap(int arg1, int arg2){
         int tmp;
-        arg1 = tmp;
-        tmp = arg2;
-        arg2 = arg1
-        return arg1, arg2;
+        tmp = arg1;
+        arg1 = arg2;
+        arg2 = tmp;
+        return arg1;
     }
 }

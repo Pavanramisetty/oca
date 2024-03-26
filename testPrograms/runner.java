@@ -1,7 +1,8 @@
-import test;
+
 public class runner{
 
-    public static void main(Sting[] args){
-        test.swap(10, 20)
+    testProgram test = new testProgram();
+    public static void main(String[] args) {
+        System.out.println(testProgram.swap(0, 3));
     }
 }
